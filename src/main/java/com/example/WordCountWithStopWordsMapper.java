@@ -38,7 +38,7 @@ public class WordCountWithStopWordsMapper extends Mapper<Object, Text, Text, Int
     @Override
     protected void map(Object key, Text value, Context context) throws IOException, InterruptedException {
         String line = value.toString();
-        String[] parts = line.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)", -1);
+        String[] parts = line.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)");
         if (parts.length >= 2) {
             String headline = parts[1];
 

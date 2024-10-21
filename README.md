@@ -84,19 +84,7 @@ public class SortReducer extends Reducer<IntWritable, Text, Text, IntWritable> {
         return -int1.compareTo(int2);
     }
 ```
-##### 最终输出:截取前10个
-```json
-1	MS	1174
-2	MRK	1141
-3	MU	1096
-4	NVDA	1091
-5	VZ	1080
-6	NFLX	1078
-7	QCOM	1051
-8	BABA	1044
-9	GILD	1041
-10	EBAY	1037
-```
+
 
 # Task 2 统计热点新闻标题前100个⾼频单词
 ##### 1.WordCountWithStopWordsMapper.java
@@ -160,21 +148,7 @@ if (parts.length == 2) {
 	}
 }
 ```
-##### 输出：截取前10个
 
-```java
-1       stocks  56139
-2       vs      55971
-3       est     48362
-4       eps     44755
-5       market  41593
-6       shares  39623
-7       reports 37356
-8       update  31738
-9       earnings        30114
-10      sales   27659
-
-```
 
 # 程序运行结果
 运行代码
