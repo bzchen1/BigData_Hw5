@@ -163,7 +163,7 @@ hadoop jar target/stock_count.jar com.example.WordCountWithStopWordsDriver /hw/h
 hadoop jar target/stock_count.jar com.example.SortByFrequencyDriver /hw/hw5/output3 /hw/hw5/output4
 ```
 web截图
-![[./hw5-1.png]]
+![截图](hw5-1.png)
 
 # 纠错与改进
 - 没有合适的debug方法，只能通过上传hdfs系统运行才能看到结果。
